@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* 
+{box-sizing: border-box;}
+
+.container {
+  position: relative;
+  
+  max-width: 300px;
+  
+}
+
+.image {
+  display: block;
+  width: 100%;
+  
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+ 
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1; 
+  width: 100%;
+  
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+  <center>
+     
+    <h2>Image Overlay Title Effect</h2>
+<h4>Move your mouse over the image to see the effect.</h4>
+
+<div class="container">
+  <img src="gradious.jpg" alt="Avatar" class="image">
+  <div class="overlay">Welcome to Gradious</div>
+</div>
+
+
+  
+
+  </center>
+
+
+
+</body>
+</html>

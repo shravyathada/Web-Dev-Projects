@@ -1,0 +1,188 @@
+#top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7%;
+    background-color: rgba(9, 6, 171, 0.86); /* Change the color and opacity as needed */
+    z-index: 1; /* Adjust the z-index value as needed */
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+    padding-left: 17px;
+    padding-top: 4px;
+    
+}
+
+#middle
+{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 93%;
+    background-color: rgba(9, 189, 183, 0.774);
+}
+#instruction
+{
+    color: white;
+    background-color: rgb(8, 8, 128);
+    text-decoration: none;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    cursor: pointer;
+}
+.top
+{
+    float: right;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 25px;
+}
+#stopwatch
+{
+    position: relative;
+    top: -7px;
+    left: 5px;
+}
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(39, 9, 169);
+    /* display: inline; */
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(4, 66, 83);
+  }
+  .instr{
+    background-color: rgb(1, 1, 74);
+    width: 174px; 
+    color: snow;
+}
+  #days
+  {
+    position: relative;
+    top: 100px;
+    left: 170px;
+  }
+  #hours
+  {
+    position: relative;
+    top: -100px;
+    left: 490px;
+  }
+  #minutes
+  {
+    position: relative;
+    top: -300px;
+    left: 810px;
+  }
+  #seconds
+  {
+    position: relative;
+    top: -500px;
+    left: 1130px;
+  }
+  .btns
+  {
+    position: relative;
+    top: -370px;
+    left: 600px;
+    color: white;
+      
+  }
+  #setTime
+  {
+    background-color: rgb(11, 11, 109);
+    border-radius: 5px;
+    height: 35px;
+    width: 6%;
+    border: none;
+  cursor: pointer;
+    color: white;
+    box-shadow: 0 0 15px rgb(4, 66, 83);
+    
+  }
+  #startResume
+  {
+    background-color: rgb(227, 45, 227);
+    border-radius: 5px;
+    height: 35px;
+    width: 6%;
+    border: none;
+  cursor: pointer;
+    color: white;
+    box-shadow: 0 0 15px rgb(4, 66, 83);
+  
+  }
+  #pause
+  {
+    background-color: rgb(35, 174, 229);
+    border-radius: 5px;
+    height: 35px;
+    width: 6%;
+    border: none;
+  cursor: pointer;
+    color: white;
+    box-shadow: 0 0 15px rgb(4, 66, 83);
+    
+  }
+  #reset
+  {
+    background-color: red;
+    border-radius: 5px;
+    height: 35px;
+    width: 6%;
+    border: none;
+  cursor: pointer;
+    color: white;
+    box-shadow: 0 0 15px rgb(4, 66, 83);
+    
+  }
+  .inputText
+  {
+   position: relative;
+   top:80px;
+   left: 60px;
+   height: 40px;
+   text-align: center;
+   border-radius: 3px;
+   border: none;
+   box-shadow: 0 0 5px rgb(4, 66, 83);
+  }
+  .count
+  {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+  }
+  .lable
+  {
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+  }
+  #bottom
+  {
+    color: white;
+    z-index: 2;
+    background-color: rgb(13, 13, 107);
+    position: relative;
+    top: -360px;
+    display: none;
+    padding-left: 20px;
+    padding-bottom: 5px;
+  }
+ #btminstr
+ {
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 40px;
+ }
+ .fas
+ {
+    float: right;
+    padding: 20px;
+    cursor: pointer;
+ }

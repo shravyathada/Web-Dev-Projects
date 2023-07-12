@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script
+      src="https://kit.fontawesome.com/cee2a3a2b0.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <div id="top">
+      <i class="fa-regular fa-clock fa-3x"></i> <label id="stopwatch" class="top1">STOPWATCH</label>
+        <label id="home" class="top">Home</label>
+        <label id="timer" class="top">Timer</label>
+        <label id="clock" class="top">Clock</label>
+        <label id="calender" class="top">Calender</label>
+    </div>
+    <div id="middle">
+      <a id="instruction" onclick="btmload()" > click here for instruction</a>
+        <div id="clockdiv">
+            <div class="box" id="days">
+                <div class="count" id="dayval">00</div>
+                <div class="lable">Days</div>
+                <input type="text" id="daysInput" class="inputText" maxlength="" size="4" placeholder="0"/>
+            </div>
+              <div class="box" id="hours">
+                <div class="count" id="hourval">00</div>
+                <div class="lable">Hours</div>
+                <input type="text" id="hoursInput" class="inputText" maxlength="" size="4" placeholder="0"/>
+              </div>
+              <div class="box" id="minutes">
+                <div class="count" id="minval">00</div>
+                <div class="lable">Minutes</div>
+                <input type="text" id="minutesInput" class="inputText" maxlength="" size="4" placeholder="0"/>
+              </div>
+              <div class="box" id="seconds">
+                <div class="count" id="secval">00</div>
+                <div class="lable">Seconds</div>
+                <input type="text" id="secondsInput" class="inputText" maxlength="" size="4" placeholder="0"/>
+              </div>
+        </div>
+        <div class="btns">
+            <button id="setTime">Set Timer</button>
+            <button id="startResume">Start/Resume</button>
+            <button id="pause">Pause</button>
+            <button id="reset">Reset</button>
+          </div>
+          <div id="bottom">
+            <label id="btminstr">Instruction</label><i class="fas fa-chevron-circle-up fa-2x" onclick="fontload()"></i>
+            <ol>
+              <li>Enter the vales in the inputs.</li>
+              <li>Press the SetTimer Button to set the timer.</li>
+              <li>Press the Start/Resume Button to start the timer.</li>
+              <li>Pause the Timer if you want to pause.</li>
+              <li>Press Start/Resume Button to resume the values.</li>
+              <li>Press the Reset button to reset the Values.</li>
+            </ol>
+          </div>
+          
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

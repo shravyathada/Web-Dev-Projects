@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise1</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+      body {
+    background-color: #89EABF;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+p{
+    background-color: black;
+    color: white;
+    max-width: 100%;
+    margin-top: 0px;
+    height: 10px;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: black;
+    border: 9px solid black;
+}
+
+.item img {
+    max-width: 100%;
+    height: 270px;
+    width: 600px;
+    max-height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: #89D4EA;
+    }
+
+    .item {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #F3EEEE;
+    }
+
+    .item {
+        flex-basis: 100%;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Media Query demo</h2>
+        <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quod, quidem, corrupti tempore illum vel debitis omnis inventore voluptate molestiae autem aliquid eaque, sit eveniet error libero possimus laudantium reprehenderit? Expedita ipsum fugiat culpa error amet, laboriosam consequuntur quos ea cum velit voluptatibus autem officiis ullam adipisci numquam nihil dicta natus deserunt excepturi! Dolores distinctio itaque voluptatem ex vero ipsum at, soluta laudantium fuga inventore ipsam vel fugiat maiores commodi architecto nam, a ut iusto, eos quibusdam eius modi. Quia?
+        </label><br>
+        <label>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, voluptate dignissimos non, incidunt adipisci recusandae earum at veritatis quos quam ad. Sapiente perspiciatis eaque animi ex inventore, dolore quia officia!
+						 </label>
+        <h3  >Box columns</h3>
+    </div>
+
+
+    <div class="container">
+
+		<div class="item">
+			<img src="https://i.pinimg.com/564x/26/c7/35/26c7355fe46f62d84579857c6f8c4ea5.jpg" alt="Img1">
+                <p>Cats are cute</p>
+        </div>
+		<div class="item">
+			<img src="https://i.pinimg.com/564x/64/91/52/6491527312cc18275b06a1b6fbc0a9d6.jpg" alt="Img2">
+                <p>Cats are cute</p>
+        </div>
+		<div class="item">
+			<img src="https://i.pinimg.com/564x/29/c9/6e/29c96ecc0f558fb1fa54928649e8833a.jpg" alt="Img3">
+            <div class="footer">
+                <p>Cats are cute</p>
+        </div>		</div>
+		<div class="item">
+			<img src="https://i.pinimg.com/564x/fc/39/82/fc39828edf7ca5007627e5236d15f867.jpg" alt="Img4">
+                <p>Cats are cute</p>
+        </div>
+		<div class="item">
+			<img src="https://i.pinimg.com/564x/9d/ea/d8/9dead8aba311055835b12033fdb5733f.jpg" alt="Img5">
+                <p>Cats are cute</p>
+        </div>
+				<div class="item">
+					<img src="https://i.pinimg.com/564x/64/91/52/6491527312cc18275b06a1b6fbc0a9d6.jpg" alt="Img6">
+		                <p>Cats are cute</p>
+		        </div>
+
+	</div>
+</body>
+</html>
